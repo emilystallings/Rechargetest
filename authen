@@ -1,0 +1,6 @@
+import requests
+
+headers = {"X-Recharge-Access-Token": "ce30c32f458195d74f91527e17c2668ae467e92b2d4eab71afb19fc7"}
+url = "https://api.rechargeapps.com"
+
+result = requests.get(url, headers=headers)
